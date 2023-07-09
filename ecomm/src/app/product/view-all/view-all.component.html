@@ -1,0 +1,105 @@
+<!-- <p>view-all works!</p> -->
+<!-- Header-->
+<header class=" py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <!-- <div class="text-center text-white">
+            <h1 class="display-4 fw-bolder">Shop in style</h1>
+            <p class="lead fw-normal text-white-50 mb-0">With this shop hompeage template</p>
+        </div> -->
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://i.postimg.cc/Nj7TVsBx/ecom7.jpg" class="imge w-100" alt="...">
+              </div>
+              <!-- <div class="carousel-item" data-bs-interval="2000">
+                <img src="..." class="d-block w-100" alt="...">
+              </div> -->
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://i.postimg.cc/MGfcwz84/ecom5.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://i.postimg.cc/26nGt8ZC/ecomm4.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://i.postimg.cc/2jPKjyYF/ecom6.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</header>
+<!-- <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+      data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <li><a class="dropdown-item" href="#!">All Products</a></li>
+      <li>
+          <hr class="dropdown-divider" />
+      </li>
+      <li><a class="dropdown-item" href="#!">Audio & Video</a></li>
+      <li><a class="dropdown-item" href="#!"></a></li>
+  </ul>
+</li> -->
+<div class="row container ms-5" >
+          <!-- //catstep3 down -->
+  <div (click)="categoryProduct('')" class="card col-  ms-3" style="width: 18rem;">
+    <img src="https://i.postimg.cc/MGfcwz84/ecom5.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">All Product</p>
+    </div>
+  </div>
+  <div (click)="categoryProduct(2)" class="card col-3 ms-3" style="width: 18rem;">
+    <img src="https://i.postimg.cc/26nGt8ZC/ecomm4.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Interior Accessories</p>
+    </div>
+  </div>
+  <div (click)="categoryProduct(3)"  class="card col-3 ms-3" style="width: 18rem;">
+    <img src="https://i.postimg.cc/Nj7TVsBx/ecom7.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Oil and Filter</p>
+    </div>
+  </div>
+  <div (click)="categoryProduct(4)" class="card col-3 ms-3" style="width: 18rem;">
+    <img src="https://i.postimg.cc/2jPKjyYF/ecom6.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Tyres and Rims</p>
+    </div>
+  </div>
+</div>
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                            <!-- //catstep5           pipestep2 search:'':'productName'"-->
+            <div *ngFor="let i of categoryArray | search:searchString:'productName'" class="col mb-5"><!--step8-->
+                                                    <!-- searchstep1 -->
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top" src={{i.productImg}} alt="..." /><!--step9|-->
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            <!-- Product price-->
+                            {{i.price}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" 
+                            href="product/view/{{i.id}}">View More</a></div><!--step10-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

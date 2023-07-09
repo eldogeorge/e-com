@@ -1,0 +1,95 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "productName": "Portronics AUTO 10 POR-320, Fm Transmitter Bluetooth",
+      "categoryId": 2,
+      "description": "Portronics AUTO 10 POR-320, Bluetooth - FM Transmitter in-Car Radio Adapter for Hands-Free Calling, Music Streaming, Micro SD + USB Music, 3.4A Dual USB Fast Charger, Supports All Smartphones (Black)",
+      "price": "₹799",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/kGrWLWL0/prod1.jpg",
+      "rating": 4.4,
+      "review": 150,
+      "vendor_name": "Portronics Pvt.Ltd",
+      "warranty": "1 year"
+    },
+    {
+      "id": 5,
+      "productName": "AUX in Adapter",
+      "categoryId": 2,
+      "description": "AUX in Adapter, 3.5mm Car Media Cable with 2 U‑Shaped Tool for Audio Input for Car Accessory",
+      "price": "₹569",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/0282CcNL/prod5.jpg",
+      "rating": 2.9,
+      "review": 15,
+      "vendor_name": "Shanrya shop",
+      "warranty": "1 year"
+    },
+    {
+      "id": 6,
+      "productName": "Karcher K 2.360 *KAP 120 bar High Pressure Washer",
+      "categoryId": 2,
+      "description": "Karcher K 2.360 *KAP 120 bar High Pressure Washer |Flow rate - 360 l/h|6 m Hose Pipe for cleaning Homes, Cars, bikes, Garden with Multiple Accessories for efficient cleaning (Yellow/Black)",
+      "price": "₹8799",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/4x194mS9/prod6.jpg",
+      "rating": 4.1,
+      "review": 818,
+      "vendor_name": "Karcher Pvt.Ltd",
+      "warranty": "1.5 year"
+    },
+    {
+      "id": 7,
+      "productName": "Castrol MAGNATEC STOP-START 5W-30 Full Synthetic Engine Oil ",
+      "categoryId": 3,
+      "description": "Castrol MAGNATEC STOP-START 5W-30 Full Synthetic Engine Oil for Petrol, Diesel and CNG Cars/Bike 3.5L",
+      "price": "₹2099",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/DyrgsfN2/prod7.jpg",
+      "rating": 4.2,
+      "review": 1364,
+      "vendor_name": "Castrol Pvt.Ltd",
+      "warranty": "No"
+    },
+    {
+      "id": 8,
+      "productName": "NIKAVI GGAF39 Air Filter ",
+      "categoryId": 3,
+      "description": "NIKAVI GGAF39 Air Filter Compatible for Aprilia SR 150/ 160 Storm 125 + NKVKC",
+      "price": "₹274",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/y8MYC5yY/prod8.jpg",
+      "rating": 3.9,
+      "review": 100,
+      "vendor_name": "Nikavi Pvt.Ltd",
+      "warranty": "No"
+    },
+    {
+      "id": 9,
+      "productName": "JK Tyre BLAZE RYDR BR41",
+      "categoryId": 4,
+      "description": "JK Tyre BLAZE RYDR BR41 120/80-18 Tubeless Bike Tyre, Rear",
+      "price": "₹3099",
+      "is_avaible": true,
+      "productImg": "https://i.postimg.cc/t4xpkkG0/prod9.webp",
+      "rating": 3.9,
+      "review": 68,
+      "vendor_name": "JK Pvt.Ltd",
+      "warranty": "6 year"
+    },
+    {
+      "id": "11",
+      "productName": "Bosch Wiper Blade",
+      "categoryId": "3",
+      "description": "Bosch | ECO (Set) | Economical Wiper Blade | Size 22/16 Inch | 3397010055END",
+      "price": "382",
+      "is_avaible": "true",
+      "productImg": "https://i.postimg.cc/4xKbQ9gB/prod11.jpg",
+      "rating": "4.2",
+      "review": "3900",
+      "vendor_name": "Bosch Pvt.Ltd",
+      "warranty": "6 months"
+    }
+  ]
+}

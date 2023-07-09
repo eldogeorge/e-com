@@ -1,0 +1,45 @@
+.bdelete {
+  width: 35%;
+  padding: 8px;
+  border-radius: 30px;
+  border: 2px solid transparent;
+  background-color: transparent;
+  margin-right: 5%;
+  margin-top: 2%;
+
+}
+
+.bdelete:hover {
+  /* background-image: linear-gradient(to right, #cc5a5a, #b50404); */
+  color: red;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.bedit {
+  /* width: 35%; */
+  /* padding: 8px; */
+  border-radius: 30px;
+  border: 2px solid transparent;
+  background-color: transparent;
+
+  margin-right: 5%;
+  margin-top: 2%;
+
+}
+
+.bedit:hover {
+  color: green;
+}
+a{
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+}
+.delimg{
+  width: 20%;
+}
+.editimg{
+  width: 25%;
+}

@@ -1,0 +1,45 @@
+<p>edit works!</p>
+<div class="bigbox">
+    <h1>Edit Product</h1>
+        <!--editstep6-->
+    <form (ngSubmit)="editProduct()" class=''><!--editstep1 down-->
+        
+        <!-- <input type="text"  id="pid" name="pid" class="f1 form-control mt-5 p-2"
+            placeholder="Product Id Number"> -->
+
+
+        <!-- <div *ngIf="this.resgisterForm.get('ano')?.errors && this.resgisterForm.get('ano')?.touched">
+            <p class="text-danger">You must enter your account numbers</p>
+        </div> -->
+                        <!--editstep4 down to display in input box-->
+        <input type="text" [(ngModel)]="pdata.productName"  id="pname" name="pname" class="f1 form-control p-2 mt-2"
+            placeholder="Product Name">
+        <input type="text" [(ngModel)]="pdata.categoryId"  id="pcatid" name="pcatid" class="f1 form-control p-2 mt-2"
+            placeholder="Product Category Id">
+        <input type="text" [(ngModel)]="pdata.description" id="pdes" name="pdes" class="f1 form-control p-2 mt-2"
+            placeholder="Product Description">
+        <input type="text" [(ngModel)]="pdata.price" id="pprice" name="pprice" class="f1 form-control p-2 mt-2"
+            placeholder="Product price">
+        <input type="text" [(ngModel)]="pdata.is_avaible" id="pav" name="pav" class="f1 form-control p-2 mt-2"
+            placeholder="Product is avaible">
+        <input type="text" [(ngModel)]="pdata.productImg" id="pimg" name="pimg" class="f1 form-control p-2 mt-2"
+            placeholder="Product Image">
+        <input type="text" [(ngModel)]="pdata.rating" id="prating" name="prating" class="f1 form-control p-2 mt-2"
+            placeholder="Product rating">
+        <input type="text" [(ngModel)]="pdata.review" id="preview" name="preview" class="f1 form-control p-2 mt-2"
+            placeholder="Product Review">
+        <input type="text" [(ngModel)]="pdata.vendor_name" id="pvar" name="pvar" class="f1 form-control p-2 mt-2"
+            placeholder="Product Vendor Name">
+        <input type="text" [(ngModel)]="pdata.warranty" id="pwar" name="pwar" class="f1 form-control p-2 mt-2"
+            placeholder="Product Warranty">
+        <div class="text-center p-2">
+            <button type="submit"  class="blg1"><!--formstep6-->
+               <!-- <img src="https://i.postimg.cc/G3gjTC8F/save.gif" alt=""> -->
+                Save Product
+            </button>
+            <!-- <button type="button" routerLink="" class="blg">
+                Login
+            </button> -->
+        </div>
+    </form>
+</div>

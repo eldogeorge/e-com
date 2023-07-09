@@ -1,0 +1,43 @@
+<!-- <p>add works!</p> -->
+<div class="bigbox">
+    <h1>Add New Product</h1>
+    <form [formGroup]="addForm" class=''><!--formstep4 down-->
+
+        <input type="text" formControlName="pid" id="pid" name="pid" class="f1 form-control mt-5 p-2"
+            placeholder="Product Id Number">
+
+
+        <!-- <div *ngIf="this.resgisterForm.get('ano')?.errors && this.resgisterForm.get('ano')?.touched">
+            <p class="text-danger">You must enter your account numbers</p>
+        </div> -->
+
+        <input type="text" formControlName="pname" id="pname" name="pname" class="f1 form-control p-2 mt-2"
+            placeholder="Product Name">
+        <input type="text" formControlName="pcatid" id="pcatid" name="pcatid" class="f1 form-control p-2 mt-2"
+            placeholder="Product Category Id">
+        <input type="text" formControlName="pdes" id="pdes" name="pdes" class="f1 form-control p-2 mt-2"
+            placeholder="Product Description">
+        <input type="text" formControlName="pprice" id="pprice" name="pprice" class="f1 form-control p-2 mt-2"
+            placeholder="Product price">
+        <input type="text" formControlName="pav" id="pav" name="pav" class="f1 form-control p-2 mt-2"
+            placeholder="Product is avaible">
+        <input type="text" formControlName="pimg" id="pimg" name="pimg" class="f1 form-control p-2 mt-2"
+            placeholder="Product Image">
+        <input type="text" formControlName="prating" id="prating" name="prating" class="f1 form-control p-2 mt-2"
+            placeholder="Product rating">
+        <input type="text" formControlName="preview" id="preview" name="preview" class="f1 form-control p-2 mt-2"
+            placeholder="Product Review">
+        <input type="text" formControlName="pvar" id="pvar" name="pvar" class="f1 form-control p-2 mt-2"
+            placeholder="Product Vendor Name">
+        <input type="text" formControlName="pwar" id="pwar" name="pwar" class="f1 form-control p-2 mt-2"
+            placeholder="Product Warranty">
+        <div class="text-center p-2">
+            <button type="submit" (click)="add()" class="blg1"><!--formstep6-->
+                Add Product
+            </button>
+            <!-- <button type="button" routerLink="" class="blg">
+                Login
+            </button> -->
+        </div>
+    </form>
+</div>
